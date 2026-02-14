@@ -1,6 +1,6 @@
  import java.util.Arrays;
 
-class Solution {
+class MedianofTwoSortedArrays{
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] merged = new int[nums1.length + nums2.length];
         System.arraycopy(nums1, 0, merged, 0,nums1.length );
